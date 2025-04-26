@@ -1,0 +1,98 @@
+.cta-button {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.image-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.image-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.image-card img {
+    transition: transform 0.3s ease;
+}
+.image-card:hover img {
+    transform: scale(1.05);
+}
+.social-share a {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.social-share a:hover {
+    transform: translateY(-3px);
+}
+.accordion-toggle {
+    display: none;
+}
+.accordion-toggle:checked + .accordion-header + .accordion-content {
+    max-height: 200px;
+    padding: 1rem;
+}
+.accordion-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease, padding 0.3s ease;
+}
+.accordion-header i {
+    transition: transform 0.3s ease;
+}
+.accordion-toggle:checked + .accordion-header i {
+    transform: rotate(180deg);
+}
+.testimonial-slider {
+    position: relative;
+    overflow: hidden;
+}
+.testimonial-slide {
+    display: none;
+}
+.testimonial-slide.active {
+    display: block;
+}
+.progress-bar {
+    height: 1rem;
+    background: linear-gradient(to right, #3b82f6, #10b981);
+    transition: width 1s ease-in-out;
+}
+.newsletter-form input {
+    transition: border-color 0.3s ease;
+}
+.newsletter-form input:focus {
+    border-color: #3b82f6;
+    outline: none;
+}
+.divider {
+    position: relative;
+    text-align: center;
+}
+.divider::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(to right, transparent, #3b82f6, transparent);
+}
+.divider span {
+    background: #fff;
+    padding: 0 1rem;
+    position: relative;
+}
+.related-post {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.related-post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+.author-bio {
+    background: linear-gradient(135deg, #f9fafb, #e5e7eb);
+    transition: box-shadow 0.3s ease;
+}
+.author-bio:hover {
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
